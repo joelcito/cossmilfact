@@ -255,11 +255,11 @@
                 <!--begin:Menu sub-->
                 <div class="menu-sub menu-sub-accordion">
                     <div class="menu-item">
-                        <a class="menu-link" href="{{ url('/vehiculo') }}">
+                        <a class="menu-link" href="{{ url('facturacion/formulario') }}">
                             <span class="menu-bullet">
                                 <span class="bullet bullet-dot"></span>
                             </span>
-                            <span class="menu-title">Listado de Vehiculos</span>
+                            <span class="menu-title">Listado de Clientes</span>
                         </a>
                     </div>
                     <div class="menu-item">

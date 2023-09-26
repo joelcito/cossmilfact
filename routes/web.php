@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ClienteController;
+use App\Http\Controllers\FacturaController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -20,4 +22,9 @@ Route::get('/', function () {
 });
 
 Route::get('/home', [HomeController::class, 'index']);
+
+Route::get('/facturacion/formulario', [FacturaController::class, 'formulario']);
+
+Route::post('/cliente/buscarClientes', [ClienteController::class, 'buscarClientes']);
+
 
